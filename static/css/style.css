@@ -7887,10 +7887,11 @@ header {
   font-size: 24px;
 }
 
+
 @media (max-width: 767.98px) {
   .about-section .author-img {
     display: block;
-    height: 300px; 
+    height: 50px; 
     margin-bottom: 20px;
   } }
 
@@ -8229,6 +8230,26 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+.author-img-index {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 70px;
+}
+
+.intro-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 7.5rem;
+  width: 7.5rem !important;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 
 .image-popup {
   cursor: -webkit-zoom-in;
