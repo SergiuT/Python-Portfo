@@ -28,7 +28,7 @@ def send_email(data):
     with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
         smtp.ehlo()
         smtp.starttls()
-        smtp.login('sergiutont2@gmail.com', f"{os.environ['PASSWORD']}")
+        smtp.login('sergiutont2@gmail.com', 'facilitamos1A')
         smtp.send_message(email)
         print('Email sent!')
 
